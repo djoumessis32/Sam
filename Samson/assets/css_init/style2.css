@@ -1,0 +1,49 @@
+.milieu{
+    text-align: center;
+}
+.parge{
+    padding: 5px;
+}
+
+.form_connect table{
+ margin: 3px;
+ width:100%;
+    
+}
+.form_connect table th{
+    padding: 5px;
+    background-color: #212121 ;
+    border: 1px #999999 outset;
+    text-align: center;
+	color: white;
+    
+}
+.form_connect table tr td{
+    padding: 5px;
+    background-color: white;
+    border: 1px #999999 outset;
+    text-align: center;
+    
+}
+
+.form_connect2 table{
+ margin: 3px;
+    
+}
+.form_connect2 table th{
+    padding: 5px;
+    background-color: #37c0fb ;
+    
+}
+.form_connect2 table tr td{
+    padding: 5px;
+    background-color: white;
+    
+}
+
+.groupProgress{ width:100%;height:10px;border:1px solid #000;background:#eee;}
+#barreProgress1{width:0px;height:8px;background:red;}
+#barreProgress2{width:0px;height:8px;background:red;}
+#barreProgress3{width:0px;height:8px;background:red;}
+#barreProgress4{width:0px;height:8px;background:red;}
+#barreProgress5{width:0px;height:8px;background:red;}

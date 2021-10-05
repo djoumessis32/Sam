@@ -1,0 +1,1756 @@
+/* CSS Document */
+
+html {
+    /*background:#0066CC none repeat scroll 0 0;
+font-family:Verdana,Arial,Helvetica,sans-serif;*/
+    /*font-size:11px;
+background:url(../images/background.gif) repeat;*/
+}
+
+thead {
+    display: table-header-group;
+}
+
+.entetetable {
+    -fs-table-paginate: paginate;
+}
+
+#tableform {
+    border: 1px solid #000000;
+    background-color: #EEEEFF;
+    margin: auto;
+}
+
+#tableform2 {
+    border: 1px solid #666666;
+    background-color: #EEEEFF;
+    width: 400px;
+    margin: auto;
+}
+
+#news {
+    border: 1px solid #C0C0C0;
+    padding-bottom: 3px;
+    /*position:relative;*/
+    text-align: left;
+    width: 211px;
+    text-align: justify;
+}
+
+#newstitle {
+    /*background:transparent url(../images/sous_block.gif) repeat-x;*/
+    color: #FFFFFF !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    height: 18px !important;
+    margin-top: 10px !important;
+    padding: 0 !important;
+    position: relative !important;
+    width: 213px !important;
+    text-transform: uppercase;
+}
+
+
+/* 
+#entete_bienvenu{
+background:transparent url(../images/sous_block.gif) repeat-x;
+
+color:#FFFFFF !important;
+font-size:12px !important;
+font-weight:bold !important;
+height:18px !important;
+margin-top:10px !important;
+padding:0 !important;
+position:relative !important;
+width:543px !important;
+text-transform:uppercase;
+margin:auto;
+
+}*/
+
+#entete_bienvenu {
+    background: transparent url(../images/sous_block.gif) repeat-x;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    height: 18px;
+    margin-top: 10px;
+    padding: 0;
+    /*position:relative;*/
+    width: 543px;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+#contenu_bienvenue {
+    border: 1px solid #C0C0C0;
+    padding-bottom: 3px;
+    /*position:relative;*/
+    text-align: justify;
+    width: 541px;
+    margin: auto;
+}
+
+#entete_bienvenu2 {
+    background: transparent url(../images/sous_block.gif) repeat-x;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    height: 18px;
+    margin-top: 10px;
+    padding: 0;
+    /*position:relative;*/
+    width: 640px;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+#contenu_bienvenue2 {
+    border: 1px solid #C0C0C0;
+    padding-bottom: 3px;
+    /*position:relative;*/
+    text-align: justify;
+    width: 638px;
+    margin: auto;
+}
+
+#separateur {
+    border-bottom: 1px solid #9933FF;
+    /*background:#F5F5F5*/
+    margin: 1px;
+}
+
+
+/*.backgroundprincipal{
+background:url(../images/background.gif) repeat-x;}
+*/
+
+.viewetat {
+    font-size: 14px;
+}
+
+.msgconnexion {
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #56579A;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+}
+
+.trconnexion {
+    margin-bottom: 5px;
+}
+
+.loginsiges {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.inputconnexion {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.inputconnexion2 {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 14px;
+}
+
+.boutonconnexion {
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+.navigationbar {
+    color: #0066FF;
+    font-weight: bold;
+}
+
+.tdlien {}
+
+.tdlien:hover {
+    background-color: #000099;
+}
+
+
+/*#tableform tr:hover {
+	background-color: #f5f5dc;	
+	background-image: none;	
+	background-repeat: repeat;	
+	background-attachment: scroll;	
+	background-position: 0% 0%;
+}
+
+
+#tablecontentform tr:hover {
+	background-color: #f5f5dc;	
+	background-image: none;	
+	background-repeat: repeat;	
+	background-attachment: scroll;	
+	background-position: 0% 0%;
+}
+*/
+
+#tableformlogin {
+    border: 1px solid #666666;
+    background-color: #EFEFEF;
+    width: 350px;
+    margin: auto;
+}
+
+#formetud {
+    border: 1px solid #666666;
+    background-color: #EEEEFF;
+    margin: auto;
+}
+
+#nom {
+    text-transform: uppercase;
+}
+
+#prenom {
+    text-transform: capitalize;
+}
+
+.comment {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    color: #345A5C;
+}
+
+.bouton {
+    background: url(../images/fondInput.PNG) no-repeat;
+    cursor: pointer;
+    /*border-radius : 10px;*/
+}
+
+.petitbouton {
+    border-radius: 0px;
+    height: 25px;
+    margin: 1px;
+    text-align: center;
+    font-size: 9px;
+}
+
+input.bouton:hover {
+    background: url(../images/fondInput2.PNG) no-repeat;
+}
+
+
+/*input {
+  
+  padding:2 2px;   
+  border-radius:0px;
+ -moz-border-radius:3px;
+ -webkit-border-radius:2px; 
+}
+
+select {
+  background-color:#EFEFEF;   
+  font:"Times New Roman", Times, serif;
+  font-size:13px;
+  border:1px solid #666666; 
+  padding:2 2px;   
+  border-radius:10px;
+ -moz-border-radius:3px;
+ -webkit-border-radius:2px;  
+}
+
+
+textarea {
+  background-color:#EFEFEF;   
+  font:"Times New Roman", Times, serif;
+  font-size:13px;
+  border:1px solid #666666; 
+  padding:0 5px;   
+  border-radius:10px;
+ -moz-border-radius:3px;
+ -webkit-border-radius:2px;  
+}
+*/
+
+#textnomuniv {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#passwd_error {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#textnometab {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+
+/*<font face="Arial" color="#000000" style="font-size: 10pt"><b>'.$nomuniv.'</b></font>*/
+
+a {
+    color: #3366FF;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00CCFF;
+}
+
+
+/*.mainmenu		{ font-size : 13px; color : #000000 }
+a.mainmenu		{ text-decoration: none; color : #0066CC;  }
+a.mainmenu:hover { text-decoration:none; color : #FA9204;}
+*/
+
+#tablecontentform {
+    border: 0px solid #666666;
+    background-color: #EEEEFF;
+    width: 850px;
+    font-size: 15px;
+    /*font-family:Verdana, Arial, Helvetica, sans-serif; */
+    margin: auto;
+}
+
+#tablecontentform2 {
+    border: 0px solid #666666;
+    background-color: #EEEEFF;
+    width: 400px;
+    font-size: 15px;
+    /*font-family:Verdana, Arial, Helvetica, sans-serif; */
+    margin: auto;
+}
+
+.tablecontentform {
+    border: 0px solid #666666;
+    background-color: #EEEEFF;
+    width: 850px;
+    font-size: 12px;
+    /*font-family:Verdana, Arial, Helvetica, sans-serif; */
+    margin: auto;
+}
+
+#tablecontentformlogin {
+    border: 0px solid #666666;
+    background-color: #EFEFEF;
+    width: 350px;
+    font-size: 11px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+#titrerubrique {
+    background-color: #5e40da;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#titrerubriqueUE {
+    background-color: rgba(94, 64, 218, 0.46);
+    color: #FFFFFF;
+    /*text-transform:uppercase;*/
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#titrerubriquelogin {
+    background-color: #427AD1;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: 300px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0px;
+}
+
+#titreform {
+    border: 0px solid #666666;
+    background-color: #EEEEFF;
+    width: 850px;
+    margin: auto;
+}
+
+#textetitreform {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#msgalert {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    color: #FF0000;
+}
+
+form {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+#msgform {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+
+#tablebordure {
+    border-collapse: collapse;
+    border-color: #999999;
+    border: #999999 solid 1px;
+}
+
+.tableentete {
+    background-color: #CCCCCC;
+    font-size: 11px;
+}
+
+.trcouleur1 {
+    background-color: #F8F8FA;
+    font-size: 12px;
+    font-size: 14px;
+}
+
+tr.trcouleur1:hover {
+    background-color: #D7D7FF;
+    font-size: 12px;
+    font-size: 14px;
+}
+
+.trcouleur2 {
+    background-color: #E8E8EA;
+    font-size: 12px;
+    font-size: 14px;
+}
+
+tr.trcouleur2:hover {
+    background-color: #D7D7FF;
+    font-size: 12px;
+    font-size: 14px;
+}
+
+
+/*.nolink { 
+	background-color:#E8E8EA;
+	font-size:12px;
+	text-decoration: none; 
+}
+a.nolink:hover { 
+	background-color:#D7D7FF;
+	font-size:12px;
+	text-decoration:underline; 
+}
+*/
+
+.tdcouleur {
+    color: #5462B7;
+    font-weight: bold;
+}
+
+.pagenotfound {
+    background-color: #FFFFFF;
+    border-top: 2px solid #0066FF;
+    font-size: 16px;
+    width: 700px;
+    margin: auto;
+}
+
+.content_quitus {
+    background-color: #FFFFFF;
+    font-size: 11px;
+    margin: auto;
+}
+
+tr.odd th,
+table tr.odd,
+table tr.even th,
+table tr.even {
+    text-align: left;
+}
+
+table tr.odd th,
+.odd {
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-background-origin: padding;
+    background: #E5E5E5 none repeat scroll 0 0;
+}
+
+
+/***********************************************************************************************************/
+
+
+/*********************************************  Gestion de la pagination  **********************************/
+
+
+/***********************************************************************************************************/
+
+#directAccess li {
+    list-style-image: url(../images/img_directlink.png);
+    text-align: left;
+}
+
+ul {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#pagination-digg li {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    list-style: none;
+    margin-right: 2px;
+}
+
+#pagination-digg a {
+    border: solid 1px #9aafe5;
+    margin-right: 2px;
+}
+
+#pagination-digg .previous-off,
+#pagination-digg .next-off {
+    border: solid 1px #DEDEDE;
+    color: #888888;
+    display: block;
+    float: left;
+    font-weight: bold;
+    margin-right: 2px;
+    padding: 3px 4px;
+}
+
+#pagination-digg .next a,
+#pagination-digg .previous a {
+    font-weight: bold;
+}
+
+#pagination-digg .active {
+    background: #2e6ab1;
+    color: #FFFFFF;
+    font-weight: bold;
+    display: block;
+    float: left;
+    padding: 4px 6px;
+}
+
+#pagination-digg a:link,
+#pagination-digg a:visited {
+    color: #0e509e;
+    display: block;
+    float: left;
+    padding: 3px 6px;
+    text-decoration: none;
+}
+
+#pagination-digg a:hover {
+    border: solid 1px #0e509e;
+}
+
+
+/***************************************  Autocomplete  *******************************************************/
+
+ul#suggestsList {
+    margin: 0px;
+    padding: 0px;
+    /*border: 1px solid black;*/
+    border: 1px solid #DDDDDD;
+    background-color: #FFFFFF;
+    list-style: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px
+}
+
+ul#suggestsList li {
+    /*border: 1px solid #CFCFCF;*/
+    border-bottom: 1px solid #000000;
+    border-top: #FFFFFF;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    height: 20px;
+    ;
+}
+
+ul#suggestsList li:hover,
+ul#suggestsList li#selectedSuggest {
+    background-color: #CFCFCF;
+}
+
+ul#suggestsList li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#tableauform {
+    border: 3px outset black;
+    border-collapse: collapse;
+    width: 110%;
+    margin: auto;
+    font-size: 12px;
+}
+
+#tableauform1 {
+    border: 1px outset black;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+#tr {
+    border: 1px solid black;
+    font-size: 12px;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*#monmenu {font-family: trebuchet ms,arial,tahoma,verdana,sans-serif;font-size: 50%;font-weight:normal;}*/
+
+#monmenu {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 6px;
+}
+
+
+/*#monmenu { font-family:Verdana, Arial, Helvetica, sans-serif; size:1px; font-weight:bold;}*/
+
+
+/* Verdana, Arial, Helvetica, sans-serif" size="2" color="#000000" pointsize="2" */
+
+#monmenu ul ul {
+    display: none;
+    position: absolute;
+    left: 144px;
+    top: -1px;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #B0B0B0;
+}
+
+#monmenu li {
+    list-style-type: none;
+    position: relative;
+    width: 145px;
+    background-color: #E0E0E0;
+    padding: 3px;
+    margin: 0px;
+}
+
+#monmenu li.n3 {
+    list-style-type: none;
+    position: relative;
+    width: 200px;
+    background-color: #E0E0E0;
+    padding: 3px;
+    margin: 0px;
+}
+
+#monmenu ul ul.n3 {
+    display: none;
+    position: absolute;
+    left: 160px;
+    top: -1px;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #B0B0B0;
+}
+
+#monmenu ul li.n2 {
+    list-style-type: none;
+    position: relative;
+    width: 290px;
+    text-align: left;
+    background-color: #E0E0E0;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #B0B0B0;
+}
+
+#monmenu ul li.n3 {
+    list-style-type: none;
+    position: relative;
+    width: 290px;
+    text-align: left;
+    background-color: #E0E0E0;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #B0B0B0;
+}
+
+#monmenu li:hover,
+#monmenu li.sfhover,
+#monmenu ul li.n2:hover {
+    background-color: #FFFF70;
+}
+
+#monmenu li a {
+    text-decoration: none;
+}
+
+#monmenu li:hover ul.niveau2,
+#monmenu li li:hover ul.niveau3,
+#monmenu li.sfhover ul.niveau2,
+#monmenu li li.sfhover ul.niveau3 {
+    display: block
+}
+
+#monmenu ul.niveau1 {
+    padding-left: 0;
+}
+
+#monmenu li.plus {
+    background-position: right;
+    background-image: url(illustrations/fdroite.gif);
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #B0B0B0;
+}
+
+
+/*  
+///////////////////////////////////////////////////////////////////////////////////////////////////// 
+////////////////////////////////////// STYLE DE CARTE D'ETUDIANT //////////////////////////////////// 
+///////////////////////////////////////////////////////////////////////////////////////////////////// 
+*/
+
+#tabcartee {
+    /*width: 241px;
+	height: 186px;*/
+    margin: auto;
+    border: 2px outset black;
+}
+
+.premieretaille {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: xx-small;
+    margin: auto;
+    font-weight: bolder;
+}
+
+.premieretaille1 {
+    font-family: "Time new roman", Times, serif;
+    font-size: xx-small;
+    margin: auto;
+    font-weight: bold;
+}
+
+.champetud {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-small;
+    margin: auto;
+    font-weight: bold;
+}
+
+.champetud1 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: xx-small;
+    margin: auto;
+    font-weight: bold;
+}
+
+
+/*  
+///////////////////////////////////////////////////////////////////////////////////////////////////// 
+///////////////////////////////////////////////////////////////////////////////////////////////////// 
+///////////////////////////////////////////////////////////////////////////////////////////////////// 
+*/
+
+
+/* CSS Document */
+
+#initpasswdtitle {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+    color: #0066CC;
+}
+
+h3 {
+    color: #666666;
+    font: bold 140%/140% arial;
+    margin: 0;
+}
+
+h4 {
+    color: #000000;
+    font: 152%/152% arial;
+    font-size: 12px;
+    margin: 0;
+}
+
+#soustitremdp {
+    line-height: 129%;
+    margin: 0 0 0.8em;
+}
+
+#arrondi {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#progressBar {
+    border: 1px solid #6666CC;
+    padding-bottom: 0.5em;
+    /*-moz-border-radius:10px;*/
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px;
+}
+
+#progressBar1 {
+    border: 1px solid #6666CC;
+    padding-bottom: 0.5em;
+    /*-moz-border-radius:10px;*/
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 10px;
+}
+
+#steps {
+    background-color: white;
+    padding: 2px;
+}
+
+
+/************************************************************************************/
+
+#step_1_1 {
+    background-color: #6666CC;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#step_2_1 {
+    background-color: #CCCCFF;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#step_3_1 {
+    background-color: #CCCCFF;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#arrow_1_1 {
+    background: url("../passwd_forgot/ar_progress_sprite.png") repeat scroll -2333px 50% #CCCCFF;
+    width: 30px;
+}
+
+#arrow_2_1 {
+    background: url("../passwd_forgot/ar_progress_sprite.png") repeat scroll -3110px 50% #CCCCFF;
+    width: 30px;
+}
+
+#arrow_3_1 {
+    background: url("../passwd_forgot/ar_progress_sprite.png") repeat scroll -795px 50% #CCCCFF;
+    width: 20px;
+    /*-moz-border-radius:10px;*/
+    /*-moz-border-left-radius:10px;*/
+    -webkit-border-radius: 0px 50px 0px 0px;
+    -moz-border-radius: 0px 50px 0px 0px;
+}
+
+
+/*********************************************/
+
+#step_1_2 {
+    background: none repeat scroll 0 0 #CCCCCC;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#arrow_1_2 {
+    background: url("../passwd_forgot/ar_progress_sprite.png") repeat scroll -3890px 50% #CCCCCC;
+    width: 30px;
+}
+
+#step_2_2 {
+    background: none repeat scroll 0 0 #6666CC;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#arrow_2_2 {
+    background: url("../passwd_forgot/ar_progress_sprite.png") repeat scroll -2333px 50% #6666CC;
+    width: 30px;
+}
+
+#step_3_2 {
+    background: none repeat scroll 0 0 #CCCCFF;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#arrow_3_2 {
+    background: url("../passwd_forgot/ar_progress_sprite.png") repeat scroll -792px 50% #CCCCFF;
+    width: 20px;
+}
+
+
+/*******************************************************************/
+
+#step_1_3 {
+    background: none repeat scroll 0 0 #CCCCCC;
+    color: #FFFFFF;
+}
+
+#arrow_1_3 {
+    background: url("../passwd_forgot/ar_progress_sprite.png") repeat scroll -1550px 50% #CCCCCC;
+    width: 30px;
+}
+
+#step_2_3 {
+    background: none repeat scroll 0 0 #CCCCCC;
+    color: #FFFFFF;
+}
+
+#arrow_2_3 {
+    background: url("../passwd_forgot/ar_progress_sprite.png") repeat scroll -3890px 50% #CCCCCC;
+    width: 30px;
+}
+
+#step_3_3 {
+    background: none repeat scroll 0 0 #6666CC;
+    color: #FFFFFF;
+}
+
+#arrow_3_3 {
+    background: url("../passwd_forgot/ar_progress_sprite.png") no-repeat scroll -35px 50% #6666CC;
+    width: 20px;
+}
+
+input.info {
+    position: relative;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px gray dotted;
+    /* on souligne le texte */
+}
+
+input.info span {
+    display: none;
+    /* on masque l'infobulle */
+}
+
+input.info:hover {
+    background: none;
+    /* correction d'un bug IE */
+    z-index: 500;
+    /* on d�finit une valeur pour l'ordre d'affichage */
+    cursor: help;
+    /* on change le curseur par d�faut en curseur d'aide */
+}
+
+input.info:hover span {
+    display: inline;
+    /* on affiche l'infobulle */
+    position: absolute;
+    white-space: nowrap;
+    /* on change la valeur de la propri�t� white-space pour qu'il n'y ait pas de retour � la ligne non-d�sir� */
+    top: 30px;
+    /* on positionne notre infobulle */
+    left: 20px;
+    background: white;
+    background-attachment: scroll;
+    color: green;
+    padding: 3px;
+    border: 1px solid green;
+    border-left: 4px solid green;
+}
+
+.imge_Link.info {
+    position: relative;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px gray dotted;
+    /* on souligne le texte */
+}
+
+.imge_Link.info span {
+    display: none;
+    /* on masque l'infobulle */
+}
+
+.imge_Link.info:hover {
+    background: none;
+    /* correction d'un bug IE */
+    z-index: 500;
+    /* on d�finit une valeur pour l'ordre d'affichage */
+    cursor: help;
+    /* on change le curseur par d�faut en curseur d'aide */
+}
+
+.imge_Link.info:hover span {
+    display: inline;
+    /* on affiche l'infobulle */
+    position: absolute;
+    white-space: nowrap;
+    /* on change la valeur de la propri�t� white-space pour qu'il n'y ait pas de retour � la ligne non-d�sir� */
+    top: 30px;
+    /* on positionne notre infobulle */
+    left: 20px;
+    background: white;
+    background-attachment: scroll;
+    color: green;
+    padding: 3px;
+    border: 1px solid green;
+    border-left: 4px solid green;
+}
+
+a.info {
+    color: #3366FF;
+    font-weight: 550;
+    position: relative;
+    text-decoration: none;
+    /*border-bottom: 1px gray dotted;  on souligne le texte */
+}
+
+a.info span {
+    display: none;
+    /* on masque l'infobulle */
+}
+
+a.info:hover {
+    color: #00CCFF;
+    background: none;
+    /* correction d'un bug IE */
+    z-index: 500;
+    /* on d�finit une valeur pour l'ordre d'affichage */
+    cursor: help;
+    /* on change le curseur par d�faut en curseur d'aide */
+}
+
+a.info:hover span {
+    display: inline;
+    /* on affiche l'infobulle */
+    position: absolute;
+    white-space: nowrap;
+    /* on change la valeur de la propri�t� white-space pour qu'il n'y ait pas de retour � la ligne non-d�sir� */
+    top: 20px;
+    /* on positionne notre infobulle */
+    left: 10px;
+    background: white;
+    background-attachment: scroll;
+    color: 427AD1;
+    font-weight: bold;
+    padding: 3px;
+    border: 1px solid #427AD1;
+    border-left: 4px solid #427AD1;
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+a.info1 {
+    color: #3366FF;
+    font-weight: 550;
+    position: relative;
+    text-decoration: none;
+    /*border-bottom: 1px gray dotted;  on souligne le texte */
+}
+
+a.info1 span {
+    display: none;
+    /* on masque l'infobulle */
+}
+
+a.info1:hover {
+    color: #00CCFF;
+    background: none;
+    /* correction d'un bug IE */
+    z-index: 500;
+    /* on d�finit une valeur pour l'ordre d'affichage */
+    cursor: help;
+    /* on change le curseur par d�faut en curseur d'aide */
+}
+
+a.info1:hover span {
+    display: inline;
+    /* on affiche l'infobulle */
+    position: absolute;
+    white-space: nowrap;
+    /* on change la valeur de la propri�t� white-space pour qu'il n'y ait pas de retour � la ligne non-d�sir� */
+    top: 20px;
+    /* on positionne notre infobulle */
+    left: -120px;
+    width: auto;
+    background: white;
+    background-attachment: scroll;
+    color: 427AD1;
+    font-weight: bold;
+    padding: 3px;
+    border: 1px solid #427AD1;
+    border-left: 4px solid #427AD1;
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+p.info {
+    color: #3366FF;
+    font-weight: 550;
+    position: relative;
+    text-decoration: none;
+    /*border-bottom: 1px gray dotted;  on souligne le texte */
+}
+
+p.info span {
+    display: none;
+    /* on masque l'infobulle */
+}
+
+p.info:hover {
+    color: #00CCFF;
+    background: none;
+    /* correction d'un bug IE */
+    z-index: 500;
+    /* on d�finit une valeur pour l'ordre d'affichage */
+    cursor: help;
+    /* on change le curseur par d�faut en curseur d'aide */
+}
+
+p.info:hover span {
+    display: inline;
+    /* on affiche l'infobulle */
+    position: absolute;
+    white-space: nowrap;
+    /* on change la valeur de la propri�t� white-space pour qu'il n'y ait pas de retour � la ligne non-d�sir� */
+    top: 40px;
+    /* on positionne notre infobulle */
+    left: 100px;
+    background: white;
+    background-attachment: scroll;
+    color: 427AD1;
+    font-weight: bold;
+    padding: 3px;
+    border: 1px solid #427AD1;
+    border-left: 4px solid #427AD1;
+    font-size: 20px;
+}
+
+.tablecode {
+    /*border: 3px solid #427AD1;*/
+    font-size: 18px;
+    background: url(../images/bgcode.PNG);
+    border-collapse: collapse;
+    border: 2px solid #427AD1;
+}
+
+
+/******************************************************/
+
+
+/*******************  STYLES ADDITIFS  ******************/
+
+
+/******************************************************/
+
+fieldset {
+    margin-bottom: 10px;
+    border: 1px #ccc solid;
+    padding: 5px;
+    text-align: left;
+}
+
+fieldset p {
+    margin: 10px 0px;
+}
+
+legend {
+    color: #0B55C4;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+div.form {
+    width: 90%;
+    border: 1px solid #e9e9e9;
+}
+
+input,
+select {
+    font-size: 13px;
+    font-weight: 550;
+    border: 1px solid silver;
+}
+
+* textarea {
+    font-size: 13px;
+    font-size: 13px;
+    font-weight: 550;
+    border: 1px solid silver;
+}
+
+button {
+    font-size: 12px;
+    background: url(../images/fondInput.PNG) no-repeat;
+}
+
+input.disabled {
+    background-color: #F0F0F0;
+}
+
+input.button {
+    cursor: pointer;
+    font-size: 12px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    background-color: #ffd
+}
+
+#submenu-box {
+    background: #f6f6f6;
+    margin-bottom: 10px;
+}
+
+#toolbar-box {
+    background: #fbfbfb;
+    margin-bottom: 10px;
+}
+
+span.formtitle {
+    color: #0B55C4;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 25px;
+    /*  margin-left: 10px;
+    padding-left: 55px;*/
+}
+
+span.formcomment {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+}
+
+div.t {
+    background: url("../images/j_border.png") repeat-x scroll 0 0 transparent;
+}
+
+div.t,
+div.b {
+    height: 6px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+div.t div.t {
+    background: url("../images/j_crn_tr_dark.png") no-repeat scroll 100% 0 transparent;
+}
+
+div.t div.t div.t {
+    background: url("../images/j_crn_tl_dark.png") no-repeat scroll 0 0 transparent;
+}
+
+.clr {
+    clear: both;
+    overflow: hidden;
+    height: 0;
+}
+
+fieldset.adminform {
+    border: 1px solid #ccc;
+    margin: 0 10px 10px 10px;
+}
+
+table.admintable td.key,
+table.admintable td.paramlist_key {
+    background-color: #F6F6F6;
+    border-bottom: 1px solid #E9E9E9;
+    border-right: 1px solid #E9E9E9;
+    color: #666666;
+    font-weight: bold;
+    text-align: right;
+    width: 200px;
+    font-size: 11px;
+}
+
+table {
+    font-size: 11px;
+}
+
+table.admintable td.field {
+    border-bottom: 1px solid #e9e9e9;
+}
+
+table.admintable td.key.vtop {
+    vertical-align: top;
+}
+
+table.adminform {
+    background-color: #f9f9f9;
+    border: solid 1px #d5d5d5;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 8px 0 10px 0;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+table.adminform td {
+    padding: 3px;
+    text-align: left;
+}
+
+div.m {
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    padding: 0 8px;
+}
+
+div.b {
+    background: url("../images/j_border.png") repeat-x scroll 0 100% transparent;
+}
+
+div.b div.b {
+    background: url("../images/j_crn_br_dark.png") no-repeat scroll 100% 0 transparent;
+}
+
+div.b div.b div.b {
+    background: url("../images/j_crn_bl_dark.png") no-repeat scroll 0 0 transparent;
+}
+
+legend {
+    color: #0B55C4;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+textarea {
+    border: 1px solid silver;
+    font-size: 12px;
+}
+
+body,
+td,
+th {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table.paramlist td.paramlist_description {
+    background-color: #f6f6f6;
+    text-align: left;
+    width: 170px;
+    color: #333;
+    font-weight: normal;
+    border-bottom: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+}
+
+table.adminform.nospace {
+    margin-bottom: 0;
+}
+
+table.adminform tr.row0 {
+    background-color: #f9f9f9;
+}
+
+table.adminform tr.row1 {
+    background-color: #eeeeee;
+}
+
+table.adminform th {
+    font-size: 12px;
+    padding: 6px 2px 4px 4px;
+    text-align: left;
+    height: 25px;
+    color: #000;
+    background-repeat: repeat;
+}
+
+table.adminform td.filter {
+    text-align: left;
+}
+
+table.adminform td.helpMenu {
+    text-align: right;
+}
+
+
+/******************************************************/
+
+
+/**************STYLE DES ETATS ADDITIFS****************/
+
+
+/*****************************************************/
+
+table.tableEnteteLogo,
+table.tableEnteteLogo td {
+    border-collapse: collapse;
+    border: none;
+    padding: 0 0 0 0;
+}
+
+table.tableDetailsUEMatiere,
+table.tableDetailsUEMatiere td {
+    border-collapse: collapse;
+    border: solid 1px #CCC;
+    padding: 0 0 0 0;
+}
+
+table.tableEnteteLogo tr.limitEntete {
+    border-bottom: double #000 3px;
+}
+
+table.tableEnteteLogo p.pays {
+    margin: 0cm;
+    margin-bottom: 0pt;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13.0pt;
+    font-family: "Albertus Extra Bold", "sans-serif";
+    text-transform: uppercase;
+}
+
+table.tableEnteteLogo p.devise {
+    margin: 0cm;
+    margin-bottom: 0pt;
+    text-align: center;
+    font-size: 11.0pt;
+    /*font-family:"Albertus Extra Bold","sans-serif"; */
+}
+
+table.tableEnteteLogo p.ministere {
+    mso-style-link: "Titre 7 Car";
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    text-align: center;
+    page-break-after: avoid;
+    font-size: 13.0pt;
+    font-family: "Albertus Extra Bold", "sans-serif";
+}
+
+table.tableEnteteLogo p.univ {
+    mso-style-link: "Titre 7 Car";
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    text-align: center;
+    page-break-after: avoid;
+    font-size: 13.0pt;
+    font-family: "Albertus Extra Bold", "sans-serif";
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table.tableEnteteLogo p.univ2 {
+    mso-style-link: "Titre 7 Car";
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    text-align: center;
+    page-break-after: avoid;
+    font-size: 13.0pt;
+    font-family: "Albertus Extra Bold", "sans-serif";
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+table.tableEnteteLogo p.fac {
+    mso-style-link: "Titre 7 Car";
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    text-align: center;
+    page-break-after: avoid;
+    font-size: 17.0pt;
+    /*font-family:"Albertus Extra Bold", "sans-serif";*/
+    font-family: "Arial Narrow";
+    font-weight: bold;
+}
+
+table.tableEnteteLogo p.adresse {
+    margin: 0cm;
+    margin-bottom: 0pt;
+    text-align: center;
+    font-size: 9.0pt;
+    font-family: "Albertus Extra", "sans-serif";
+    font-style: italic;
+}
+
+table.tableEnteteLogo p.simple {
+    margin: 0cm;
+    margin-bottom: 0pt;
+    font-size: 11pt;
+    font-family: "Arial Narrow";
+}
+
+table.tableEnteteLogo p.simple2 {
+    margin: 0cm;
+    margin-bottom: 0pt;
+    font-size: 11pt;
+    font-family: "Arial Narrow";
+    padding-top: 10px;
+}
+
+table.tableEnteteLogo td.leftEntete {
+    padding-left: 60px;
+}
+
+table.tableEnteteLogo p.simple span.cle {
+    margin: 0cm;
+    margin-bottom: 0pt;
+    font-weight: bold;
+}
+
+table.tableEnteteLogo p.simple span.valeur {
+    margin: 0cm;
+    margin-bottom: 0pt;
+}
+
+table.tableEnteteLogo p.simple2 span.titreEtat {
+    mso-style-link: "Titre 7 Car";
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    text-align: center;
+    page-break-after: avoid;
+    font-size: 15.0pt;
+    font-family: "Arial Narrow";
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+table.tableEnteteLogo p.simple2 span.session {
+    font-size: 13.0pt;
+    font-family: "Arial Narrow";
+    font-weight: bold;
+}
+
+table.tableEnteteLogo p.simple2 span.valeurSession {
+    font-size: 13.0pt;
+    font-style: italic;
+    font-family: "Times New Roman", "serif";
+}
+
+table.tableDetailsUEMatiere p.simple span.libDetailUE {
+    font-size: 13.0pt;
+    font-family: "Arial Narrow";
+}
+
+table.tableDetailsUEMatiere p.simple span.valeurDetailUE {
+    font-size: 13.0pt;
+    font-family: "Times New Roman", "serif";
+    font-weight: bold;
+    font-style: italic;
+}
+
+table.tableDetailsUEMatiere p.simple span.credit {
+    font-size: 13.0pt;
+    font-style: italic;
+    font-family: "Times New Roman", "serif";
+}
+
+table.tableContenuEtat,
+table.tableContenuEtat td {
+    border-collapse: collapse;
+    border: solid 1px #000;
+    padding: 0 0 0 0;
+}
+
+table.tableContenuEtat tr.enteteTableau {
+    border-collapse: collapse;
+    border: solid 1px #000;
+    padding: 0 0 0 0;
+    font-weight: bold;
+    font-family: "Arial Narrow";
+    border: double 3px #000;
+    background-color: #E5E5E5;
+    text-align: center;
+}
+
+table.tableContenuEtat tr.contenuTableau {
+    border-collapse: collapse;
+    border: solid 1px #000;
+    padding: 0 0 0 0;
+    font-family: "Arial Narrow";
+    font-size: 13px;
+}
+
+table.tableContenuEtat tr.contenuStat {
+    border-collapse: collapse;
+    border: solid 1px #000;
+    padding: 0 0 0 0;
+    font-family: "Arial Narrow";
+    font-size: 14px;
+}
+
+table.tablePourcentValid,
+table.tablePourcentValid td {
+    border-collapse: collapse;
+    padding: 0 0 0 0;
+    border: double 3px #000;
+}
+
+table.tablePourcentValid p.pourcentValid {
+    font-family: "Arial Narrow";
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+thead {
+    display: table-header-group;
+}
+
+.entetetable {
+    -fs-table-paginate: paginate;
+}
+
+
+/*************************************************************/
+
+table.tableEnteteLogo p.paysfinal {
+    margin: 0cm;
+    margin-bottom: 0pt;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14.0pt;
+    font-family: "Albertus Extra Bold", "sans-serif";
+    text-transform: uppercase;
+}
+
+table.tableEnteteLogo p.paysfinal2 {
+    margin: 0cm;
+    margin-bottom: 0pt;
+    text-align: center;
+    font-size: 14.0pt;
+    font-family: "Albertus Extra Bold", "sans-serif";
+    text-transform: uppercase;
+}
+
+table.tableEnteteLogo p.devisefinal {
+    margin: 0cm;
+    margin-bottom: 0pt;
+    text-align: center;
+    font-size: 13.0pt;
+    /*font-family:"Albertus Extra Bold","sans-serif"; */
+}
+
+table.tableEnteteLogo p.devisefinal1 {
+    margin: 0cm;
+    margin-bottom: 0pt;
+    text-align: center;
+    font-size: 13.0pt;
+    /*font-family:"Albertus Extra Bold","sans-serif"; */
+}
+
+table.tableEnteteLogo p.univfinal {
+    mso-style-link: "Titre 7 Car";
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    text-align: center;
+    page-break-after: avoid;
+    font-size: 13.0pt;
+    font-family: "Albertus Extra Bold", "sans-serif";
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table.tableEnteteLogo p.univfinal2 {
+    mso-style-link: "Titre 7 Car";
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    text-align: center;
+    page-break-after: avoid;
+    font-size: 13.0pt;
+    font-family: "Albertus Extra Bold", "sans-serif";
+    text-transform: uppercase;
+}
+
+table.tableEnteteLogo p.univfinal3 {
+    margin: 0cm;
+    margin-bottom: 0pt;
+    text-align: center;
+    font-size: 10.0pt;
+    font-family: "Albertus Extra", "sans-serif";
+    font-style: italic;
+}
+
+table.tableEnteteLogo p.facfinal {
+    mso-style-link: "Titre 7 Car";
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    text-align: center;
+    page-break-after: avoid;
+    font-size: 13.0pt;
+    font-family: "Albertus Extra", "sans-serif";
+    font-family: "Arial Narrow";
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table.tableEnteteLogo p.facfinal1 {
+    mso-style-link: "Titre 7 Car";
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    text-align: center;
+    page-break-after: avoid;
+    font-size: 11.0pt;
+    font-family: "Albertus Extra", "sans-serif";
+    font-family: "Arial Narrow";
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table.tableEnteteLogo p.facfinal2 {
+    mso-style-link: "Titre 7 Car";
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    text-align: center;
+    page-break-after: avoid;
+    font-size: 13.0pt;
+    font-family: "Albertus Extra", "sans-serif";
+    font-family: "Arial Narrow";
+    text-transform: uppercase;
+}
+
+table.tableEnteteLogo p.facfinal21 {
+    mso-style-link: "Titre 7 Car";
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    text-align: center;
+    page-break-after: avoid;
+    font-size: 10.0pt;
+    font-family: "Albertus Extra", "sans-serif";
+    font-family: "Arial Narrow";
+    text-transform: uppercase;
+}
+
+table.tableEnteteLogo p.adressefinal {
+    margin: 0cm;
+    margin-bottom: 0pt;
+    text-align: center;
+    font-size: 9.0pt;
+    font-family: "Albertus Extra", "sans-serif";
+    font-style: italic;
+}
